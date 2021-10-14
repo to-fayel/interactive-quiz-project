@@ -51,6 +51,7 @@ p{
     position: relative;
     margin: auto;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .question{
