@@ -51,9 +51,7 @@ nextButton.addEventListener('click', event => {
             result.style.display = 'block'
             result.innerText = `You score is: ${resultPoint} out of ${questions.length}`
             nextButton.innerText = 'Play Again?'
-        }
-        else {
-            // num++
+        } else {
             quizMessage.style.display = 'none'
             // count result 
             resultPoint = resultPoint + showResult()
